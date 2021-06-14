@@ -1,0 +1,83 @@
+.caja{
+    width: 400px;
+    height: 400px;
+
+}
+
+.uno{
+    background-color: #ddd906;
+    border: 2px solid #0c0c0c; /*En este caso no tienen separaciòn por comas*/
+}
+
+.dos{
+    background-color: #57aa0a;
+    border:30px ridge #ddd906;
+    border-radius: 50%;
+    
+}
+
+
+
+.A{
+    background-color: rgb(71, 31, 216);
+    border-bottom-right-radius: 80px;
+    width:200px;
+    height:100px;
+    float:left;
+    margin-right: 20px;
+    text-align: center;
+    
+    
+}
+
+.B{
+    background-color: rgb(99, 216, 31);
+    border-bottom-right-radius: 30%;
+    width:200px;
+    height:100px;
+    float:left;
+    margin-right: 20px;
+}
+
+.C{
+    background-color: rgb(216, 31, 40);
+    border-bottom-right-radius: 50px;
+    width:200px;
+    height:100px;
+    float:left;
+    margin-right: 20px;
+}
+
+.D{
+    background-color: rgb(176, 216, 31);
+    border-bottom-right-radius: 60%;
+    border-top-right-radius: 400px;
+    border-bottom-left-radius: 400px;
+    border-top-left-radius: 60%;
+    float:left;
+    width:200px;
+    height:100px;
+    margin-right: 20px;
+}
+
+.E{
+    background-color: rgb(12, 14, 12);
+    border-bottom-right-radius: 15%;/*ya*/
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    border-top-left-radius: 15%;/*ya*/
+    width:200px;
+    height:100px;
+    float:left;
+    margin-right: 20px;
+    
+}
+
+.F{
+    background-color: rgb(12, 14, 12);
+    width:100px;
+    height:100px;
+    border-radius: 50%;
+    float:left;
+    margin-right: 20px;   
+}

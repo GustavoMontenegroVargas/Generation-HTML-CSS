@@ -1,0 +1,32 @@
+.cajas {
+    max-width: 900px;
+    height: 600px;
+    display: flex; /*Se coloca en el padre*/
+    justify-content: center;
+    margin: 0 auto;
+    background-color: rgb(19, 228, 228);
+    border: 3px solid black;
+    align-items:center;
+
+}
+/*El flex rompe el flujo una vez se termina de usar*/
+.caja{
+    width: 200px;
+    height: 200px;
+    border: 3px solid black;
+    margin: 10px;
+    
+}
+
+.roja{
+    background-color: red;
+    align-self: baseline; /* Permite poder tener a cada elemento en el lugar que se quiera, a pesar de la condiciòn del padre. */
+}
+
+.verde{
+    background-color: green;
+}
+
+.azul{
+    background-color: blue;
+}

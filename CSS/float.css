@@ -1,0 +1,25 @@
+.cajas{
+    max-width: 900px; /* Podemos usar Max o min width para ajustar tamaños determinados que siempre se van a cumplir*/
+    max-height: 1000px;
+    background-color: rgb(54, 158, 199);
+    margin : 0 auto;
+    border: 2px solid black;
+    
+}
+
+.caja{
+    width:200px;
+    height: 200px;
+    background-color: yellow;
+    margin: 10px;
+    border: 5px solid red;
+    float:left;
+
+}
+
+.clearfix{
+    float:none;
+    clear:both;
+}
+
+
